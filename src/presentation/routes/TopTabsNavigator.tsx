@@ -10,7 +10,7 @@ export const TopTabsNavigator = () => {
     <>
     <HamburgerMenu/>
       <Tab.Navigator>
-        <Tab.Screen name="Pefil" component={ProfileScreen} />
+        <Tab.Screen name="Perfil" component={ProfileScreen} />
         <Tab.Screen name="About" component={AboutScreen} />
       </Tab.Navigator>
     </>
